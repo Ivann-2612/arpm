@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Document</title>
 </head>
 <body>
     <nav>
-        <img src='./img//logo.png' alt='logo' />
+        <img class="logo" src='./img//logo.png' alt='logo' />
         <ul>
             <li class="lab">
                 <a href=''>Lab</a>
@@ -26,11 +27,184 @@
             <li>
                 <a href=''>Why ARPM?</a>
             </li>
+            <img class="social" src='./img//social.png' alt='social'/>
         </ul>
        
     </nav>
-    <div class="second-nav">
-           
+    <div class="second">
+        <img class="lines" src='./img//lines.png' alt='social'/>
+        <ul class="second-ul">
+            <li>
+                <a href=''>Theory</a>
+            </li><img class="arrow" src='./img//arrow.png' alt='social'/>
+            <li>
+                <a href=''>The "Check list"</a>
+            </li><img class="arrow" src='./img//arrow.png' alt='social'/>
+            <li>
+                <a href=''>Quest for invariance</a>
+            </li><img class="arrow" src='./img//arrow.png' alt='social'/>
+            <li>
+                <a href=''>Cointegration</a>
+            </li>
+            <input type='search' placeholder="search" />
+        </ul>
      </div>
+     <div class="toc">
+        <div id="toc_container">
+            <p class="toc_title">TOC</p>
+            <ul class="toc_list">
+           
+                <li><a href="#First_Sub_Point_1">Overview</a></li>
+                <li><a href="#First_Sub_Point_2">Video lectures</a></li>
+                <li><a href="#First_Sub_Point_2">Theory</a></li>
+                <li><a href="#First_Sub_Point_2">Introduction</a></li>
+                <li><a href="#First_Sub_Point_2">-The "Check list"</a></li>
+                <li><a href="#First_Sub_Point_2">+[1.2] First Sub Point 2</a></li>
+                <li><a href="#First_Sub_Point_2">+1.2 First Sub Point 2</a></li>
+                <li><a href="#First_Sub_Point_2">+1.2 First Sub Point 2</a></li>
+              
+            </li>
+            <li><a href="#Second_Point_Header">+2 Second Point Header</a></li>
+            <li><a href="#Third_Point_Header">+3 Third Point Header</a></li>
+            </ul>
+            </div>
+     </div>
+     <div class="key-points">
+         <h3>Key points </h3><br/>
+           <p> • A cointegrated process is a stationary process (46.26)-(46.27) that is a linear combination of non-stationary processes.
+            • Cointegration is the essence of statistical arbitrage [W].
+            • Cointegration can be detected by principal component analysis (36.57) of the ill-defined) estimated covariance of the non-
+            stationary processes.</p>
+    </div>
+    <div class="video">
+        <img src='./img/Video.jpg' alt='video' />
+    </div>
+    <div class="example">
+        <img src='./img/example.png' alt='example' />
+    </div>
+    <div class="table">
+        <img src='./img/tables.png' alt='tables' />
+    </div>
+    <div class="discussion">
+        <img src='./img/discussion.png' alt='discussion' />
+    </div>
+    <div class="small">
+        <img src='./img/small.png' alt='discussion' /> <span> Multivariate quest
+            Points of interest, pitfalls, practical tips </span>  <img class="right-arrow" src='./img/small.png' alt='discussion' />
+    </div>
+    <div class="hr">
+        <img src='./img/hr.png' alt='hr' /> 
+    </div>
+    <div class="social-2">
+        <img src='./img/social-2.png' alt='social-2' /> 
+    </div>
+    <div class="logo-2">
+        <img src='./img/logo-2.png' alt='logo-2' /> 
+    </div>
+    <div class="modeling">
+         <h3><span>2.8.1 Modeling</span></h3><br />
+         <p>Let us consider a multivariate process X = (X1,67 ..., X.,t) integrated of order one <span class="blue">(43.20)</span>
+            <br/><span class="black">XI(1),</span><br/>
+           <span class="blue"> (2.171)XI(1),</span>
+            such as risk drivers, which behave approximately as a random walk<span class="blue"> (2.10).</span>
+            Cointegration occurs when there exists one or more linear combinations of X that are integrated of order zero <span class="blue">(43.27)</span>, and hence stationary
+            <span class="blue">(46.26)-(46.27)</span><br/>
+            <span class="black">Y = c X 10),</span>
+            <span class="blue">(2.172)</span><br />
+            where cis ad x 1 cointegration vector.
+            If c, and care cointegration vectors, so is any linear combination of the two. The maximum number 1 of linearly independent cointegration
+            vectors {a}/_, spans a hyperplane, which is called the cointegrated space. Note that the cointegrated combination (2.172) is a univariate
+            process, since it is a linear combination of the univariate marginal components Xd,t of the risk drivers process Xt.
+            Cointegration is a <span class="orange">model-independent</span>  where cis ad x 1 cointegration vector.
+            If c, and care cointegration vectors, so is any linear combination of the two. The maximum number 1 of linearly independent cointegration
+            vectors {a}/_, spans a hyperplane, which is called the cointegrated space. Note that the cointegrated combination (2.172) is a univariate
+            process, since it is a linear combination of the uconcept, however it is best understood in the context of a VAR(1) model (Section 46.2.7) and estimated
+            accordingly (Section 2.7.3). Refer to Section 47.3.3 for applications to signals.</p>
+            
+    </div>
+    <div class="detection">
+        <h3><span>2.8.2 Detection</span> </h3><br/>
+            <p>
+                &
+            If cis not a cointegration vector, then the process c'X is integrated of order one c'X 1(1), and thus its variance is ever-increasing. On the
+            other hand, if cis a cointegration vector as in (2.172), then the process c' X is stationary and thus its unconditional variance V{c X{} must be
+            finite and not depend on the time t.
+            Hence, it is natural to seek cointegration among processes (if any) with small and thus finite) variance
+            c= argminV{X} (2.173)
+            3
+            subject to lo ll2=1,
+            where cis constrained to have unit length so as not to obtain the trivial solution c=0.
+            According to the eigenvalue-eigenvector recursive framework (36.98), the best candidate cointegration vectors (2.173) are the eigenvectors (or
+            principal directions) es corresponding to the smallest eigenvalues (or principal variances) of the unconditional covariance Cv{Xt}.
+            Note that the unconditional population covariance Cv{X} is not defined, because by assumption (2.171) the process XI(1) is integrated
+            of order one. However, we can always
+            i) estimate the covariance matrix sg from a time series {at}_1
+            s={It, pe}_
+            (2.174)
+            ii compute the coresponding eigenvectors ê = (@1 ... lēà) (36.57) by performing principal component analysis (36.57)
+            sx = 6 x Diag(ÂU Â) x =;
+            (2.175)
+            iii test covariance stationarity of the ensuing time series
+            {% = @qr}_1, d=1,..., d.
+            (2.176)
+            Testing for covariance stationarity is a crucial step. Indeed, small and thus finite variance, that we impose by means of the minimization
+            (2.173), is only a necessary condition for the effective stationarity of the cointegrated process. To this purpose, we fit an AR(1) model (46.68) as
+            in Table 2.6
+            {44 = byt-1+
+            tek
+            (2.177)
+            If the fitted parameter Ø is below a given threshold, or 61 1, then we can consider the process stationary (Section 46.2.4) and êda
+            cointegration vector. Hence, the stationarity test partitions the space into two linear sub-spaces: the cointegrated directions, spanned by êd
+            such that 16  hypothesis Ho, and the non-cointegrated directions, spanned by ēd such that 61 > b (alternative hypothesis Hi). Refer
+            to Section 42.1 for more on hypothesis testing.
+            Once we verified that the AR(1) fit (2.177) of cointegrated combination Y = @ X: (2.172) gives rise to a covariance stationary process, we can
+            compute the deviation of the current value from the long-term mean, or alpha
+            at = 41 - E{Y{} = It - My;
+            (2.178)
+            its half-life ThL (46.71), and the Z-score (36.11)
+            Yt - E{Y}
+            zt =
+            Sd{Y}
+            Yt - Hy
+            σY
+            (2.179)
+            The higher the 2-score (2.179) in absolute value, the higher the likelihood the process will revert to the expectation uy, by an amount of time
+            whose order of magnitude is summarized by the half life (46.71).</p>
+    </div>
+    <div class="external-links">
+        <div class="left">
+           <ul>
+            <li>
+                <a href=''>External links</a>
+            </li>
+        </ul> 
+        </div>
+        <div class="right">
+             <ul>
+            <li>
+                <a href=''>Terms</a>
+            </li>
+            <li>
+                <a href=''>Privacy policy</a>
+            </li>
+            <li>
+                <a href=''>Refund policy</a>
+            </li>
+            <li>
+                <a href=''>Cookies policy</a>
+            </li>
+            <li>
+                <a href=''>Contact us</a>
+            </li>
+            <li>
+                <a href=''>Copyright</a>
+            </li>
+            <li>
+                <a href=''>Requirements</a>
+            </li>
+        </ul>
+        </div>
+       
+    </div>
 </body>
 </html>

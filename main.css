@@ -15,6 +15,9 @@ nav {
     align-items: center;
     
 }
+.logo {
+    margin-left: 6px;
+}
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -28,18 +31,240 @@ nav ul li {
     margin-right: 20px;
     margin-left: 40px;
     padding: 20px;
+    margin-top: 5px;
 }
 nav ul li a {
     color: #f1f1f1;
     font-weight: 600;
     font-size: 18px;
-    letter-spacing: 1px;
+    
     text-decoration: none;
+    filter: drop-shadow(0px 1px 2px #101010);
 }
 nav img {
     height: 35px;
 }
-.second-nav {
+.second {
     background-color: #52B7B3;
     height: 50px;
+}
+.second-ul {
+    margin-left: 100px;
+    margin-top: -35px;
+    display: flex; 
+}
+.second-ul input {
+    margin-left: 44%;
+    padding: 5px 12px;
+    margin-top: -3px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.second-ul li {
+    list-style-type: none;
+    margin-right: 25px;
+}
+.second-ul li a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-size: 18px;
+}
+.arrow {
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+.social {
+    margin: 20px;
+}
+.lines {
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.toc {
+    width: 220px;
+    height: 560px;
+    background-color: lightgray;
+    margin: 5px;
+}
+.key-points {
+    width: 630px;
+    height: 150px;
+    border: 3px solid rgb(216, 46, 125);
+    position: absolute;
+    left: 235px;
+    top: 115px;
+}
+.key-points h3 {
+
+    color: rgb(59, 58, 58);
+    text-align: center;
+}
+.key-points p {
+    font-weight: 800;
+    padding: 8px;
+}
+.video {
+    object-fit: fill;
+    width: 241px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.example {
+    position: absolute;
+    left: 235px;
+    top: 277px;
+}
+.example img {
+    width: 630px;
+    height: 355px;
+    object-fit: fill;
+}
+.table {
+    position: absolute;
+    left: 0;
+    top: 417px;
+}
+.table img {
+    position: absolute;
+    left: 235px;
+    width: 630px;
+    height: 250px;
+    top: 237px;
+    object-fit: fill;
+}
+.discussion {
+    position: absolute;
+    left: 0;
+    top: 417px;
+}
+.discussion img {
+    position: absolute;
+    left: 235px;
+    width: 630px;
+    height: 250px;
+    top: 437px;
+    object-fit: fill;
+    margin-top: 10px;
+}
+.small {
+    position: absolute;
+    left: 320px;
+    top: 1117px;
+    margin: 20px;
+    padding-bottom: 45px;
+}
+.small img {
+    width: 10px;
+    height: 14px;
+    margin: 5px;
+    margin-bottom: -3px;
+}
+.right-arrow {
+    transform: rotate(180deg);
+}
+.hr {
+    position: absolute;
+    left: 880px;
+    top: 1080px;  
+}
+.hr img {
+    width: 625px;
+}
+.social-2 {
+    position: absolute;
+    left: 920px;
+    top: 1110px;  
+}
+
+.logo-2 {
+    position: absolute;
+    left: 1320px;
+    top: 1115px;  
+}
+
+.modeling {
+    width: 630px;
+    height: 380px;
+    /* border: 1px solid blue; */
+    position: absolute;
+    left: 880px;
+    top: 115px;
+    padding: 0 12 12px 12px;
+    font-size: 16px;
+}
+.modeling h3 span {
+    color: blue;
+}
+.modeling p {
+    font-size: 16px;
+}
+.modeling .blue {
+    color: rgb(18, 116, 111);
+}
+.modeling .black {
+    color: black;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+.modeling .orange {
+    color: orange;
+}
+.detection {
+    width: 638px;
+    height: 580px;
+    position: absolute;
+    left: 880px;
+    top: 490px;
+    padding: 0 12 12px 12pxpx;
+}
+.detection h3 span {
+    color: blue;
+}
+.external-links ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.external-links ul li {
+    list-style-type: none;
+}
+.external-links ul li a {
+    text-decoration: none;
+    margin-right: 12px;
+    color: #3F9692;
+}
+.external-links .left {
+    float: left;
+    margin-left: 13px;
+}
+.external-links .right {
+    float: right;
+    margin-right: 15px;
+}
+#toc_container {
+    background: lightgrey none repeat scroll 0 0;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: 220px;
+    height: 560px;
+    border: none;
+}
+.toc_list li a {
+    text-decoration: none;
+}
+.toc_title {
+    font-weight: 700;
+    text-align: left;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
 }
